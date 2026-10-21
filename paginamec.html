@@ -1,197 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="fonts/fontawesome/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apple Storefront | Mac</title>
 
-    <link rel="stylesheet" type="text/css" href="css/paginamac.css">
-
-
-
-
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+  <!-- Dependências públicas para o GitHub Pages -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="paginamac.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top" id="navbar">
     <div class="container-fluid">
-      <!-- Logo da marca -->
-      <a class="navbar-brand" href="#">
-        <!-- Ícone da Apple em branco -->
-        <i class="fa-brands fa-apple text-white"></i>
+      <a class="navbar-brand" href="paginaloja.html" aria-label="Apple Store">
+        <i class="fa-brands fa-apple" aria-hidden="true"></i>
       </a>
-  
-      <!-- Botão de alternância para dispositivos móveis -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Abrir menu">
         <span class="navbar-toggler-icon"></span>
-      </button>     
-      
-  <!--NOMES DA BARRA DE NAVEGAÇÃO-->
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-            <a class="nav-link" href="paginaloja.html">Loja</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="paginamec.html">Mac</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#carroseel">Ipad</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#carroseel">Iphone</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link" href="#fone">Watch</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link" href="#">AirPods</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link" href="#">TV e Casa</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link" href="#">Entretenimento</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link" href="#">Acessórios</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link" href="#">Suporte</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa-solid fa-bag-shopping"></i></a>
-          </li>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="paginaloja.html">Loja</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="paginamec.html">Mac</a></li>
+          <li class="nav-item"><a class="nav-link" href="paginaloja.html#carroseel">iPad</a></li>
+          <li class="nav-item"><a class="nav-link" href="paginaloja.html#carroseel">iPhone</a></li>
+          <li class="nav-item"><a class="nav-link" href="paginaloja.html#fone">Watch</a></li>
+          <li class="nav-item"><a class="nav-link" href="paginaloja.html#airpods">AirPods</a></li>
+          <li class="nav-item"><a class="nav-link" href="paginaloja.html#airpods">TV e Casa</a></li>
+          <li class="nav-item"><a class="nav-link" href="paginaloja.html#airpods">Entretenimento</a></li>
+          <li class="nav-item"><a class="nav-link" href="paginaloja.html#airpods">Acessórios</a></li>
+          <li class="nav-item"><a class="nav-link" href="paginaloja.html#airpods">Suporte</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" aria-label="Buscar"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="#" aria-label="Sacola"><i class="fa-solid fa-bag-shopping"></i></a></li>
         </ul>
       </div>
     </div>
   </nav>
-  </body>
-  </html>
-    
 
+  <main class="container-fluid">
+    <h1 class="page-title">Todos os modelos. <span>Escolha o seu.</span></h1>
 
-          <P></P>
-          <h1 style="color: white; margin-top: 40px;">Todos os modelos. <span style="color: #343a40;">Escolha o seu.</span></h1>
-          <P></P>
-              <div class="row"><p></p>
-                
-        <div class="col-md-4">
-            <div class="card">
-                <img src="images/mec2.jpg.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">iMac</h5>
-                    <p class="card-text"></p>
-                    <p class="card-text"><small class="text-body-secondary">A paritr de R$ 14.499</small></p>
-                    <a href="#" class="btn btn-primary">Comprar</a> <!-- Botão Comprar -->
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="images/mac.jpg.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">MacBook Pro</h5>
-                    <p class="card-text"></p>
-                    <p class="card-text"><small class="text-body-secondary">A partir de R$ 18.499</small></p>
-                    <a href="#" class="btn btn-primary">Comprar</a> <!-- Botão Comprar -->
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="images/mec3.jpg.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">MacBook Air com chip M2 </h5>
-                    <p class="card-text"></p>
-                    <p class="card-text"><small class="text-body-secondary">A partir de R$ 10.999</small></p>
-                    <a href="#" class="btn btn-primary">Comprar</a> <!-- Botão Comprar -->
-                </div>
-            </div>
-        </div>
-    </div>
+    <section class="row row-cols-1 row-cols-md-3 g-4" aria-label="Modelos de Mac">
+      <div class="col">
+        <article class="card h-100">
+          <img src="images/mec2.jpg.jpeg" class="card-img-top" alt="Computador iMac">
+          <div class="card-body">
+            <h2 class="card-title h5">iMac</h2>
+            <p class="card-text">A partir de R$ 14.499</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </article>
+      </div>
+      <div class="col">
+        <article class="card h-100">
+          <img src="images/mac.jpg.jpeg" class="card-img-top" alt="Computador MacBook Pro">
+          <div class="card-body">
+            <h2 class="card-title h5">MacBook Pro</h2>
+            <p class="card-text">A partir de R$ 18.499</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </article>
+      </div>
+      <div class="col">
+        <article class="card h-100">
+          <img src="images/mec3.jpg.jpeg" class="card-img-top" alt="Computadores MacBook Air">
+          <div class="card-body">
+            <h2 class="card-title h5">MacBook Air com chip M2</h2>
+            <p class="card-text">A partir de R$ 10.999</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </article>
+      </div>
+    </section>
 
-
-
-    <P></P>
-    <h1 style="color: white; margin-top: 50px; margin-bottom: 50px;">Guias de compras. <span style="color: #343a40;">Difícil de<br>decidir? Comece por aqui.</span></h1>
-    <P></P>
-    <p></p>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <section class="shopping-guides">
+      <h2 class="page-title">Guias de compras. <span>Difícil de decidir? Comece por aqui.</span></h2>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h5 class="card-title" style="font-size: 16px; color: #CCCCCC;">COMPRAR TODOS OS MODELO</h5>
-                    <p></p>
-                    <p class="card-text"><strong style="font-size: 20px;">Qual é o <span style="color: #343a40;">Mac</span> ideal para você?</strong></p>
-                    <img src="images/card0.jpg.jpeg" class="card-img-top" alt="...">
-                </div>
+          <article class="card h-100">
+            <div class="card-body">
+              <p class="eyebrow">COMPRAR TODOS OS MODELOS</p>
+              <h3 class="card-title h5">Qual é o Mac ideal para você?</h3>
+              <img src="images/card0.jpg.jpeg" class="card-img-top" alt="Guia para escolher um Mac">
             </div>
+          </article>
         </div>
         <div class="col">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h5 class="card-title" style="font-size: 16px; color: #CCCCCC;">ESPECIALISTA EM MAC</h5><P></P>
-                    <p class="card-text"><strong style="font-size: 20px;">Compre com a ajuda de um especialista na Apple Store ou Online.</strong></p>
-                    <img src="images/card.jpg.jpeg" class="card-img-top" alt="...">
-                </div>
+          <article class="card h-100">
+            <div class="card-body">
+              <p class="eyebrow">ESPECIALISTA EM MAC</p>
+              <h3 class="card-title h5">Compre com a ajuda de um especialista na Apple Store ou online.</h3>
+              <img src="images/card.jpg.jpeg" class="card-img-top" alt="Atendimento especializado para escolher um Mac">
             </div>
+          </article>
         </div>
-    </div>
-    
-      
+      </div>
+    </section>
+  </main>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    let lastScrollTop = 0;
+    const navbar = document.getElementById("navbar");
 
-      
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-    <script>
-        var lastScrollTop = 0;
-        window.addEventListener("scroll", function(){
-          var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-          if (currentScroll > lastScrollTop){
-            // Scrolling down
-            hideNavbarOnScroll();
-          } else {
-            // Scrolling up
-            showNavbarOnScroll();
-          }
-          
-          lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
-        }, false);
-      
-        function hideNavbarOnScroll() {
-          var navbar = document.getElementById("navbar");
-          navbar.classList.add("navbar-hidden");
-          navbar.classList.remove("navbar-visible");
-        }
-      
-        function showNavbarOnScroll() {
-          var navbar = document.getElementById("navbar");
-          navbar.classList.remove("navbar-hidden");
-          navbar.classList.add("navbar-visible");
-        }
-      </script>
-      
-
-    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-
-</head>
-<body>
-   
+    window.addEventListener("scroll", () => {
+      const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      navbar.classList.toggle("navbar-hidden", currentScroll > lastScrollTop && currentScroll > 80);
+      navbar.classList.toggle("navbar-visible", currentScroll <= lastScrollTop || currentScroll <= 80);
+      lastScrollTop = Math.max(currentScroll, 0);
+    });
+  </script>
+</body>
+</html>
