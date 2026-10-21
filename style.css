@@ -1,6 +1,5 @@
 body {
   background-color: #000;
-  overflow-x: hidden;
 }
 
 #navbar {
@@ -23,52 +22,23 @@ main {
 .banner-content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: clamp(24px, 4vw, 64px);
-  width: 100%;
-  max-width: 1440px;
-  min-height: min(70vh, 760px);
-  margin-inline: auto;
-  padding: 32px clamp(24px, 5vw, 72px);
 }
 
 .banner-text {
-  flex: 0 1 42%;
-  max-width: 540px;
-  padding: 0;
+  flex: 1;
+  padding: 30px;
   color: #fff;
-  font-size: clamp(1.25rem, 2vw, 2rem);
-  line-height: 1.4;
-}
-
-.banner-text p {
-  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2.125rem);
 }
 
 .banner-content > img {
-  display: block;
-  flex: 0 1 58%;
-  width: 58%;
-  max-width: 760px;
-  max-height: min(68vh, 700px);
+  max-width: 55%;
   height: auto;
-  object-fit: contain;
-}
-
-#carroseel > .row {
-  max-width: 1440px;
-  margin-inline: auto;
 }
 
 .card {
   background-color: #000;
   color: #fff;
-}
-
-.card-img-top {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
 }
 
 .card-group {
@@ -83,105 +53,30 @@ main {
   margin-top: 70px;
 }
 
-.what-content,
 .gif-animado {
-  width: 100%;
   display: flex;
+  max-width: 100%;
+  height: auto;
   align-items: center;
   justify-content: center;
 }
 
-.what-content img,
 .gif-animado img {
-  display: block;
   max-width: 100%;
   height: auto;
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .banner-content {
-    gap: 20px;
-    min-height: 58vh;
-    padding: 24px;
-  }
-
-  .banner-text {
-    flex-basis: 42%;
-    font-size: clamp(1.05rem, 2vw, 1.35rem);
-  }
-
-  .banner-content > img {
-    flex-basis: 58%;
-    width: 58%;
-    max-height: 52vh;
-  }
-}
-
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   .banner-content {
     flex-direction: column;
-    justify-content: center;
-    gap: 16px;
-    min-height: auto;
-    padding: 36px 20px 24px;
     text-align: center;
   }
 
-  .banner-text {
-    flex: none;
-    max-width: 620px;
-    font-size: clamp(1.25rem, 4vw, 1.8rem);
-  }
-
   .banner-content > img {
-    flex: none;
-    width: min(100%, 760px);
     max-width: 100%;
-    max-height: none;
-  }
-
-  #carroseel > .row {
-    margin-inline: 0;
-  }
-
-  .card-group {
-    flex-wrap: wrap;
-  }
-
-  .card-group > .card {
-    flex: 1 1 280px;
-  }
-
-  .carousel-caption {
-    padding-bottom: 1rem;
-  }
-}
-
-@media (max-width: 575.98px) {
-  main {
-    padding-top: 56px;
-  }
-
-  .banner-content {
-    padding: 24px 16px 16px;
   }
 
   .banner-text {
-    font-size: 1.25rem;
-  }
-
-  #carroseel {
-    padding-inline: 12px;
-  }
-
-  .card-group {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 16px;
-    margin-top: 40px;
-  }
-
-  #fone {
-    margin-top: 40px;
+    padding: 16px;
   }
 }
