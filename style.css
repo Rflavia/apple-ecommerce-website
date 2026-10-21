@@ -98,7 +98,26 @@ main {
   height: auto;
 }
 
-@media (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .banner-content {
+    gap: 20px;
+    min-height: 58vh;
+    padding: 24px;
+  }
+
+  .banner-text {
+    flex-basis: 42%;
+    font-size: clamp(1.05rem, 2vw, 1.35rem);
+  }
+
+  .banner-content > img {
+    flex-basis: 58%;
+    width: 58%;
+    max-height: 52vh;
+  }
+}
+
+@media (max-width: 767.98px) {
   .banner-content {
     flex-direction: column;
     justify-content: center;
