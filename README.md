@@ -25,4 +25,5 @@ Site inspirado na identidade visual da Apple, criado para praticar o desenvolvim
 
 ![Seção dos AirPods](images/03-airpods.png)
 
+##
 Projeto independente, desenvolvido para fins de estudo e portfólio. Sem vínculo oficial com a Apple.
