@@ -4,6 +4,8 @@
 
 Site inspirado na identidade visual da Apple, criado para praticar o desenvolvimento de interfaces responsivas e explorar uma estética escura e minimalista.
 
+[**Acessar o site**](https://rflavia.github.io/apple-ecommerce-website/)
+
 ![Tela inicial do projeto](images/01-tela-inicial.png)
 
 ## Tecnologias
