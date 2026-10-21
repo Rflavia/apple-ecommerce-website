@@ -1,14 +1,26 @@
-# Site Responsivo Inspirado na Apple
+# Apple Storefront
 
-Projeto para criar uma página web minimalista e responsiva, inspirada no design sofisticado da Apple, utilizando HTML, CSS, JavaScript e Bootstrap.
+### Projeto-desafio de desenvolvimento web
 
-## Objetivo
+Site inspirado na identidade visual da Apple, criado para praticar o desenvolvimento de interfaces responsivas e explorar uma estética escura e minimalista.
 
-Desenvolver uma interface limpa e otimizada para proporcionar uma experiência de navegação fluída em todos os dispositivos.
+![Tela inicial do projeto](images/01-tela-inicial.png)
 
-## Tecnologias utilizadas
+## Tecnologias
 
-- **HTML**
-- **CSS**
-- **JavaScript**
-- **Bootstrap**
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+
+## Outras telas
+
+**Modelos de Mac**
+
+![Modelos de Mac](images/02-modelos-mac.png)
+
+**Seção dos AirPods**
+
+![Seção dos AirPods](images/03-airpods.png)
+
+Projeto independente, desenvolvido para fins de estudo e portfólio. Sem vínculo oficial com a Apple.
