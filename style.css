@@ -1,82 +1,116 @@
-body {
-  background-color: #000;
-}
 
-#navbar {
-  z-index: 1030;
-  transition: transform 0.35s ease-in-out;
+body{
+  background-color: #000000; /* cor da pagina*/
+  
 }
-
 .navbar-hidden {
   transform: translateY(-100%);
+  transition: transform 0.5s ease-in-out;
 }
 
 .navbar-visible {
   transform: translateY(0);
+  transition: transform 0.5s ease-in-out;
 }
 
-main {
-  padding-top: 56px;
+/* TUDO SOBRE O BANNER CONFIGURAÇÃO EM FORMA RESPONSIVA*/
+@media (max-width: 768px) {
+  /* Estilos para dispositivos menores */
+  .navbar-nav {
+    flex-direction: column;
+  }
+  
+
+/* Barra de navegação padrão */
+.navbar {
+  position: sticky;
+  top: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Esconde a barra de navegação quando a página é rolada para baixo */
+.navbar.hidden {
+  transform: translateY(-100%);
+}
+
+
+  .nav-menu {
+    
+    display: none; /* Esconder a barra de navegação */
+  }
+  
+  .banner-content {
+    flex-direction: column; /* Alterar a direção para coluna */
+    text-align: center; /* Centralizar o texto */
+  }
+  
+  .banner-text {
+    padding: 0px; /* Adicionar espaçamento ao redor do texto */
+  }
 }
 
 .banner-content {
   display: flex;
   align-items: center;
+  
 }
 
 .banner-text {
   flex: 1;
+  color: white;
+  font-size: 34px;
   padding: 30px;
-  color: #fff;
-  font-size: clamp(1.5rem, 3vw, 2.125rem);
 }
 
-.banner-content > img {
-  max-width: 55%;
-  height: auto;
+
+
+/* TUDO carrosel */
+  .card {
+    background-color: black; /* Define o fundo como preto */
+    color: white;
+
 }
 
-.card {
-  background-color: #000;
-  color: #fff;
-}
 
+/* Adiciona espaçamento entre as divs */
 .card-group {
-  margin-top: 90px;
+  margin-top: 90px; /* Adiciona 20 pixels de margem no topo */
 }
 
+/* Adiciona espaçamento entre as divs */
 .carousel {
-  margin-top: 10px;
+  margin-top: 10px; /* Adiciona 20 pixels de margem no topo */
 }
+
 
 #fone {
-  margin-top: 70px;
+  margin-top: 70px; /* Adiciona 20 pixels de margem na parte superior */
 }
 
-.gif-animado {
-  display: flex;
-  max-width: 100%;
-  height: auto;
-  align-items: center;
-  justify-content: center;
-}
 
-.gif-animado img {
-  max-width: 100%;
-  height: auto;
-}
 
-@media (max-width: 768px) {
-  .banner-content {
-    flex-direction: column;
-    text-align: center;
-  }
+  .gif-animado {
+            max-width: 100%; /* Define a largura máxima da div para ocupar toda a largura disponível */
+            height: auto; /* Mantém a proporção original do GIF */
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente o conteúdo */
+            align-items: center; /* Centraliza verticalmente o conteúdo */
+        }
 
-  .banner-content > img {
-    max-width: 100%;
-  }
+        .gif-animado img {
+            max-width: 100%; /* Define a largura máxima da imagem para ocupar toda a largura da div */
+            height: auto; /* Mantém a proporção original do GIF */
+        }
 
-  .banner-text {
-    padding: 16px;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
